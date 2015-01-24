@@ -1,7 +1,5 @@
-/* Declare and Define the functions here that will make the function calls below work properly */
-
-
-
+/* Declare and Define the functions here that will make the 
+function calls below work properly */
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
   console.log('The first name in names is ', firstName)
@@ -11,10 +9,6 @@ first(names, function(firstName){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
   console.log('The last name in names is ', lastName);
@@ -24,10 +18,8 @@ last(names, function(lastName){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-//have the contains function return a boolean value for if the name is in the array or not.
-
-
+//have the contains function return a boolean value for if the name 
+//is in the array or not.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 contains('Colt', names, function(yes){
   if(yes){
@@ -41,12 +33,9 @@ contains('Colt', names, function(yes){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
 var numbers = [1,2,3,4,5];
-//Produces a new array of values by mapping each value in list through a transformation function
+//Produces a new array of values by mapping each value in list 
+//through a transformation function
 map(numbers, function(num){
   return num * 2; //returns an array of [2,4,6,8,10]
 });
@@ -55,10 +44,6 @@ map(numbers, function(num){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 uniq(names, function(uniqArr){
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
@@ -68,10 +53,6 @@ uniq(names, function(uniqArr){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 each(names, function(item, indice){
   console.log('The item in the ' + indice + 'position is ' + item)
@@ -81,10 +62,6 @@ each(names, function(item, indice){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
 var users = [
   {
     id: '12d',
@@ -113,11 +90,8 @@ getUserById('16t', users, function(user){
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
-
-
-
-
-//Looks through each value in the list, returning the first one that passes a truth test 
+//Looks through each value in the list, returning the first one that 
+//passes a truth test 
 var numbers  = [1, 2, 3, 4, 5, 6];
 find(numbers, function(num){ 
   return num % 2 == 0; //should return 2
